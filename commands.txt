@@ -1,0 +1,90 @@
+git clone link
+cd repo
+git push origin main
+git add .
+git commit -m "message"
+git push
+
+Microsoft Windows [Version 10.0.19045.5131]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\abiyou.desta\Documents\Github projects>git clone https://github.com/AbiyouD/Repo1.git
+Cloning into 'Repo1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+C:\Users\abiyou.desta\Documents\Github projects>git push origion
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origion master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\abiyou.desta\Documents\Github projects>gi --config user.name="AbiyouD"
+'gi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\abiyou.desta\Documents\Github projects>git --config user.name="AbiyouD"
+unknown option: --config
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Users\abiyou.desta\Documents\Github projects>git push origion main
+error: src refspec main does not match any
+error: failed to push some refs to 'origion'
+
+C:\Users\abiyou.desta\Documents\Github projects>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+C:\Users\abiyou.desta\Documents\Github projects>git config user.name="AbiyouD"
+error: invalid key: user.name=AbiyouD
+
+C:\Users\abiyou.desta\Documents\Github projects>git config user.name="AbiyouD"
+error: invalid key: user.name=AbiyouD
+
+C:\Users\abiyou.desta\Documents\Github projects>cd Repo1
+
+C:\Users\abiyou.desta\Documents\Github projects\Repo1>git push origin main
+info: please complete authentication in your browser...
+Everything up-to-date
+
+C:\Users\abiyou.desta\Documents\Github projects\Repo1>git add .
+
+C:\Users\abiyou.desta\Documents\Github projects\Repo1>git commit -m "hi"
+[main 48f8072] hi
+ Committer: AbiyouD <abiyou.desta@acnuk.org>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hi.txt
+
+C:\Users\abiyou.desta\Documents\Github projects\Repo1>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 266 bytes | 44.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AbiyouD/Repo1.git
+   d8dc8c9..48f8072  main -> main
+
+C:\Users\abiyou.desta\Documents\Github projects\Repo1>
